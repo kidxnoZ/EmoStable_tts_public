@@ -1,0 +1,1 @@
+{"key":"example_0001","source_text":"Please read this sentence calmly.","target_text":"Please read this sentence calmly.","emotion":"neutral","emotion_text_prompt":"Calm, steady, and restrained.","target_wav":"../data/example/target.wav","neutral_speaker_wav":"../data/example/reference.wav","answer_cosyvoice_speech_token":[[101,202,303],[404,505,606],[707,808,909]]}

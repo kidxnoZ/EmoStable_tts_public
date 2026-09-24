@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+conda-env/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials and local tooling
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.cache/
+
+# Model weights and exported runtimes
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.engine
+checkpoints/
+pretrained_models/
+models/
+
+# Datasets, features, and generated media
+data/
+datasets/
+dpo_work/
+outputs/
+output/
+runs/
+wandb/
+logs/
+*.log
+*.jsonl
+!configs/*.example.jsonl
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.mp4
+
+# Training / evaluation artifacts
+pred_audio/
+decode_log/
+tensorboard/
+diagnosis/
+checkpoint-*/
+

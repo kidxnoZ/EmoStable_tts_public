@@ -1,0 +1,33 @@
+# Reproducible baseline used by the current code. Python 3.10 is recommended.
+# Install a CUDA-compatible torch build first when the default wheel is unsuitable.
+conformer==0.3.2
+diffusers==0.27.2
+einops==0.8.0
+fire==0.6.0
+funasr
+hydra-core==1.3.2
+HyperPyYAML==1.2.2
+inflect
+librosa==0.10.2.post1
+matplotlib==3.7.5
+modelscope==1.18.1
+numpy==1.26.4
+omegaconf==2.3.0
+onnxruntime-gpu==1.16.0
+openai-whisper
+optimum
+peft
+psutil
+PyYAML==6.0.2
+regex==2024.9.11
+scipy==1.14.1
+setuptools
+soundfile==0.12.1
+torch==2.4.1
+torchaudio==2.4.1
+tiktoken==0.7.0
+tqdm==4.66.5
+transformers==4.43.4
+wandb==0.18.1
+WeTextProcessing==1.0.3
+whisper_normalizer==0.0.10
